@@ -20,21 +20,33 @@ Dibuat untuk membantu pembelajaran dasar **logika pemrograman** dan **sistem bil
 
 ---
 
-## 📦 Persyaratan
-Untuk menjalankan program ini, pastikan kamu sudah menginstal:
-
-- [Python 3.x](https://www.python.org/downloads/)  
-  (disarankan minimal Python 3.8 atau lebih baru)  
-- Text editor atau IDE (opsional):
-  - [VS Code](https://code.visualstudio.com/)
-  - [PyCharm](https://www.jetbrains.com/pycharm/)
-  - Atau cukup gunakan terminal / command prompt bawaan OS
+## 🛠 Kebutuhan
+- **Python 3.x** → [Download di sini](https://www.python.org/downloads/)  
+- Editor / Terminal:
+  - **VS Code** (Windows/Linux/macOS) → [Download](https://code.visualstudio.com/)  
+  - **Termux** (Android) → [Google Play Store](https://play.google.com/store/apps/details?id=com.termux) atau [F-Droid](https://f-droid.org/packages/com.termux/)  
 
 ---
 
 ## 🚀 Cara Menjalankan
 
-1. **Clone repository ini** (atau download ZIP):
+### 1. Jalankan di **VS Code (Windows/Linux/macOS)**
+1. Install Python 3.x sesuai OS kamu.  
+   - Cek instalasi:  
+     ```bash
+     python --version
+     ```
+     atau  
+     ```bash
+     python3 --version
+     ```
+
+2. Buka **VS Code** → buka folder project ini.  
+
+3. Pastikan file utama bernama `converter.py`.  
+
+4. Buka terminal di VS Code (`Ctrl + ~`), lalu jalankan:
    ```bash
-   git clone https://github.com/username/number-system-converter.git
-   cd number-system-converter
+   python3 bilangan_converter.py
+   atau
+   ascii_converter.py
