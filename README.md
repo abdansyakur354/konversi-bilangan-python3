@@ -21,10 +21,10 @@ Dibuat untuk membantu pembelajaran dasar **logika pemrograman** dan **sistem bil
 ---
 
 ## 🛠 Kebutuhan
-- **Python 3.x** → [Download di sini](https://www.python.org/downloads/)  
 - Editor / Terminal:
   - **VS Code** (Windows/Linux/macOS) → [Download](https://code.visualstudio.com/)  
   - **Termux** (Android) → [Google Play Store](https://play.google.com/store/apps/details?id=com.termux) atau [F-Droid](https://f-droid.org/packages/com.termux/)  
+- **Python 3.x** → [Download di sini](https://www.python.org/downloads/)  
 
 ---
 
