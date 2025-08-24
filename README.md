@@ -21,6 +21,20 @@ Dibuat untuk membantu pembelajaran dasar **logika pemrograman** dan **sistem bil
 ---
 
 ## 📦 Persyaratan
-- Python **3.x** (cek dengan perintah):
-  ```bash
-  python --version
+Untuk menjalankan program ini, pastikan kamu sudah menginstal:
+
+- [Python 3.x](https://www.python.org/downloads/)  
+  (disarankan minimal Python 3.8 atau lebih baru)  
+- Text editor atau IDE (opsional):
+  - [VS Code](https://code.visualstudio.com/)
+  - [PyCharm](https://www.jetbrains.com/pycharm/)
+  - Atau cukup gunakan terminal / command prompt bawaan OS
+
+---
+
+## 🚀 Cara Menjalankan
+
+1. **Clone repository ini** (atau download ZIP):
+   ```bash
+   git clone https://github.com/username/number-system-converter.git
+   cd number-system-converter
