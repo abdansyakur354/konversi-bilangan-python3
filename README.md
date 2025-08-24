@@ -24,29 +24,59 @@ Dibuat untuk membantu pembelajaran dasar **logika pemrograman** dan **sistem bil
 - Editor / Terminal:
   - **VS Code** (Windows/Linux/macOS) → [Download](https://code.visualstudio.com/)  
   - **Termux** (Android) → [Google Play Store](https://play.google.com/store/apps/details?id=com.termux) atau [F-Droid](https://f-droid.org/packages/com.termux/)  
-- **Python 3.x** → [Download di sini](https://www.python.org/downloads/)  
+  
 
 ---
 
 ## 🚀 Cara Menjalankan
 
 ### 1. Jalankan di **VS Code (Windows/Linux/macOS)**
-1. Install Python 3.x sesuai OS kamu.  
+1. Install Python 3.
+   - Python 3.x** → [Download di sini](https://www.python.org/downloads/)
    - Cek instalasi:  
      ```bash
      python --version
      ```
-     atau  
+     atau
+     
      ```bash
      python3 --version
      ```
 
-2. Buka **VS Code** → buka folder project ini.  
-
-3. Pastikan file utama bernama `converter.py`.  
+3. Buka **VS Code** → buka folder project ini.  
 
 4. Buka terminal di VS Code (`Ctrl + ~`), lalu jalankan:
    ```bash
    python3 bilangan_converter.py
+   
    atau
-   ascii_converter.py
+   
+   python3 ascii_converter.py
+
+### 2. Jalankan di **Termux (Android)**
+1. Install **Termux** dari [F-Droid](https://f-droid.org/packages/com.termux/) (rekomendasi).  
+
+2. Buka **Termux**, lalu update dan install Python + Git:
+   ```bash
+   pkg update && pkg upgrade
+   pkg install python git
+
+3. Clone repository project ini dari GitHub:
+
+   ```bash
+   git clone [https://github.com/USERNAME/number-system-converter.git](https://github.com/abdansyakur354/konversi-bilangan-python3.git)
+   
+4. Masuk ke folder project:
+   ```bash
+   cd konversi-bilangan-python3
+
+5. Jalankan program:
+  ```bash
+  python3 bilangan_converter.py
+
+  atau
+
+  python3 ascii_converter.py
+
+
+   
