@@ -64,7 +64,7 @@ Dibuat untuk membantu pembelajaran dasar **logika pemrograman** dan **sistem bil
 3. Clone repository project ini dari GitHub:
 
    ```bash
-   git clone [https://github.com/USERNAME/number-system-converter.git](https://github.com/abdansyakur354/konversi-bilangan-python3.git)
+   git clone https://github.com/abdansyakur354/konversi-bilangan-python3.git
    
 4. Masuk ke folder project:
    ```bash
